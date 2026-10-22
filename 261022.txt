@@ -1,0 +1,97 @@
+Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+pi=3.14159265
+pi
+3.14159265
+pi=3.14159265
+pi
+3.14159265
+pi=3,14159265
+pi+2
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    pi+2
+TypeError: can only concatenate tuple (not "int") to tuple
+pi=3.14159265
+pi+2
+5.14159265
+pi-2
+1.1415926500000002
+pi*2
+6.2831853
+pi/2
+1.570796325
+pi%2
+1.1415926500000002
+pi*pi
+9.869604378534024
+
+========================= RESTART: C:/Users/tigti/Desktop/서준-코딩/261022.py ========================
+2
+number=100
+number+=10
+number+=20
+number+=30
+print("number:",number)
+number: 160
+string="안녕하세요"
+string+="!"
+string+="!"
+print("string:",string)]\
+                          
+SyntaxError: unmatched ']'
+print("string:",string)
+string: 안녕하세요!!
+>>> input("인사말을 입력하세요>')
+...       
+SyntaxError: unterminated string literal (detected at line 1)
+>>> input("인사말을 입력하세요>")
+...       
+인사말을 입력하세요>히히ㅣ히히ㅣㅣ힣히히히히ㅣㅎ히ㅣㅎ
+'히히ㅣ히히ㅣㅣ힣히히히히ㅣㅎ히ㅣㅎ'
+>>> string=input("인사말을 입력 하세요>")
+...       
+인사말을 입력 하세요>ㅣㅎ히히히힣힣힣히히ㅣ
+>>> print(string)
+...       
+ㅣㅎ히히히힣힣힣히히ㅣ
+>>> print(type(string))
+...       
+<class 'str'>
+>>> number=input("숫자를 입력하세요>")
+...       
+숫자를 입력하세요>123456789012345678901234567890
+>>> print(number)
+...       
+123456789012345678901234567890
+>>> print(type(number))
+...       
+<class 'str'>
+>>> string=input("입력>)
+...              
+SyntaxError: unterminated string literal (detected at line 1)
+>>> string=input("입력>")
+...              
+입력>300
+>>> print("입력+100:",string+100)
+...              
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    print("입력+100:",string+100)
+TypeError: can only concatenate str (not "int") to str
+>>> string_a=input("입력A>")
+...              
+입력A>273
+>>> int_a=int(string_a)
+...              
+>>> string_b=input("입력B>")
+...              
+입력B>52
+>>> int_b=int(string_b)
+...              
+>>> print("문자열 자료:",string_a+string_b)
+...              
+문자열 자료: 27352
+>>> print("숫자 자료:",int_a+int_b)
+...              
+숫자 자료: 325
