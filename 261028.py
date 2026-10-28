@@ -1,0 +1,5 @@
+str_input=int("숫자입력>")
+num_input=str(str_input)
+print()
+print(num_input,"inch")
+print((num_input*2.54)<"cm")
